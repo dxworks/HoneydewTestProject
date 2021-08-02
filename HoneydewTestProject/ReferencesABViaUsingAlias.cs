@@ -5,8 +5,14 @@ namespace HoneydewTestProject
 {
     public class ReferencesABViaUsingAlias
     {
-        public C1 C1A { get; set; }
+        public void MethodC1A(C1 c1Params)
+        {
 
-        public C1B C1B { get; set; }
+        }
+
+        public void MethodC1B(C1B c1Params)
+        {
+
+        }
     }
 }

@@ -4,8 +4,14 @@ namespace HoneydewTestProject
 {
     public class ReferencesABViaNamespacePrefix
     {
-        public C1 C1A { get; set; }
+        public void MethodC1A(C1 c1Params)
+        {
 
-        public B.C1 C1B { get; set; }
+        }
+
+        public void MethodC1B(B.C1 c1Params)
+        {
+
+        }
     }
 }
