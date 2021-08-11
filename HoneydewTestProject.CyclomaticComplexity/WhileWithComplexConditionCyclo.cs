@@ -1,0 +1,14 @@
+﻿namespace HoneydewTestProject.CyclomaticComplexity
+{
+    public class WhileWithComplexConditionCyclo
+    {
+        public void Function(int a, int b)
+        {
+            var s = 0;
+            while ((a < 0 && b > 6) || (a > 0 && (s < 6 || s > 8) && b > 7))
+            {
+                s++;
+            }
+        }
+    }
+}
