@@ -20,7 +20,7 @@ namespace HoneydewTestProject
 
         public void UsingD1AsParameter(D1 param)
         {
-
+            var x = param.X;
         }
     }
 }

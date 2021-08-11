@@ -7,12 +7,12 @@ namespace HoneydewTestProject
     {
         public void MethodC1A(C1 c1Params)
         {
-
+            var x = c1Params.X;
         }
 
         public void MethodC1B(C1B c1Params)
         {
-
+            var x = c1Params.X;
         }
     }
 }
