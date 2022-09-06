@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>HoneydewTestProjectVB</RootNamespace>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HoneydewTestProjectVB.A\HoneydewTestProjectVB.A.vbproj" />
+    <ProjectReference Include="..\HoneydewTestProjectVB.B\HoneydewTestProjectVB.B.vbproj" />
+  </ItemGroup>
+
+</Project>
