@@ -10,5 +10,10 @@ namespace HoneydewTestProject
         {
             var x = c1Params.Single().X;
         }
+
+        public void Method(List<D1> d1Params)
+        {
+            var x = d1Params;
+        }
     }
 }
